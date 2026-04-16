@@ -10,42 +10,27 @@ const faqs = [
   {
     question: "What is AURA?",
     answer:
-      "AURA (Adaptive Universal Real-time Accessibility) is an AI-powered accessibility platform that combines six core tools: Vision Assist (real-time scene understanding), Live Captions (speech transcription), Audio Tools (audio-to-text processing), Web Overlay (instant website accessibility improvements), Voice Control (natural language navigation), and an AI Companion (conversational assistant). Together, they create a unified accessibility layer for both digital and physical environments.",
+      "AURA (Adaptive Universal Real-time Accessibility) is an education platform for students with disabilities. It combines live lecture captions, AI note-taking, vision assistance, audio tools, and a Chrome extension that makes any website accessible — all in one place.",
   },
   {
-    question: "How does the Vision Assist feature work?",
+    question: "How does the Chrome extension work?",
     answer:
-      "Vision Assist uses your device's camera combined with our computer vision AI to analyze your environment in real time. It identifies objects, estimates distances and directions, reads text (including signs, menus, and labels), recognizes faces, and describes scenes in natural language. All of this is delivered via audio feedback in under 100 milliseconds, giving you an accurate and timely picture of your surroundings.",
+      "Download the ZIP from our site, load it as an unpacked extension in Chrome, and you're set. It adds a floating button to every page with controls for font size, contrast, dyslexia font, color filters, live captions, read-aloud, and more. Your settings stick across sessions.",
   },
   {
-    question: "Is my data private? Where is it processed?",
+    question: "Which browsers does AURA support?",
     answer:
-      "Your privacy is paramount. AURA processes as much data on-device as technically feasible — particularly for Vision Assist and real-time captions. When cloud processing is necessary (for complex scene understanding or long audio transcription), your data is encrypted in transit and at rest, processed immediately, and never stored, sold, or used for training. We comply with GDPR, CCPA, and applicable data protection laws. Our full privacy policy details every data flow.",
+      "The web platform works best in Chrome and Edge (they have the best speech recognition support). The extension is Chrome/Edge only. Firefox and Safari work for most dashboard features but have limited speech recognition.",
   },
   {
-    question: "Which browsers and devices does AURA support?",
+    question: "Is my data private?",
     answer:
-      "The web platform works best in Chrome and Edge, which have the most comprehensive Web Speech API support. Firefox and Safari work for most features but have limited speech recognition support. The Web Overlay extension is available for Chrome and Edge. Native mobile apps for iOS (iPhone 12+) and Android (Android 10+) are coming in Q2 2026, with full Vision Assist support. The AI Companion and captions work across all modern browsers.",
+      "Yes. We process as much as possible on-device. When cloud processing is needed (AI vision, long transcriptions), data is encrypted, processed immediately, and never stored or sold. We comply with GDPR and CCPA.",
   },
   {
-    question: "How accurate are the Live Captions?",
+    question: "How much does it cost?",
     answer:
-      "Our Live Captions achieve 99.2% accuracy for English in clear audio conditions, measured against a standard test corpus. Accuracy can vary depending on accent strength, background noise, and audio quality. We support 40+ languages with accuracy ranging from 95-99%. Speaker identification correctly labels speakers in 94% of multi-speaker scenarios. We continuously improve our models with monthly updates.",
-  },
-  {
-    question: "Can AURA work offline?",
-    answer:
-      "Partial offline support is available. Core functions like basic object detection, stored voice commands, and pre-configured accessibility profiles work without an internet connection. Live captions, detailed AI descriptions, and AI Companion responses require connectivity. We're actively expanding our on-device AI capabilities to support full offline use by late 2026.",
-  },
-  {
-    question: "How much will AURA cost?",
-    answer:
-      "We're committed to making AURA affordable and accessible to everyone who needs it. We'll offer a free tier with core features, a premium tier for advanced AI capabilities and unlimited usage, and an enterprise tier for organizations. We're also working with disability advocacy groups on subsidized pricing for individuals who cannot afford standard pricing. Exact pricing will be announced at launch.",
-  },
-  {
-    question: "When will AURA be publicly available?",
-    answer:
-      "We're currently in a closed early access phase. Join our waitlist to be among the first to receive access. We're onboarding users in batches to ensure quality — early access users get lifetime discounted pricing and direct input into feature development. We anticipate broader public launch in mid-2026.",
+      "We'll have a free tier with core features and a premium tier for advanced AI. We're also working with disability advocacy groups on subsidized pricing. Join the waitlist for early access pricing.",
   },
 ];
 

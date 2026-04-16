@@ -324,7 +324,7 @@ export function Hero() {
               <Button
                 variant="ghost"
                 size="lg"
-                onClick={() => scrollToSection("vision-demo")}
+                onClick={() => scrollToSection("extension")}
                 icon={
                   <span className="w-8 h-8 rounded-full border border-[#1F1F28] flex items-center justify-center">
                     <Play size={12} className="text-indigo-400 ml-0.5" fill="currentColor" />
@@ -480,7 +480,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.8, duration: 0.6 }}
-        onClick={() => scrollToSection("problem")}
+        onClick={() => scrollToSection("features")}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#5A5A6E] hover:text-[#9898A8] transition-colors group"
         aria-label="Scroll to next section"
       >

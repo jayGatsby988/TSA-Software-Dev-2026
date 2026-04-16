@@ -6,31 +6,21 @@ import { Zap, Github, Twitter, Linkedin, Heart } from "lucide-react";
 
 const footerLinks = {
   Product: [
-    { label: "Vision Assist", href: "#vision-demo" },
-    { label: "Live Captions", href: "#captions-demo" },
-    { label: "Web Overlay", href: "#overlay-demo" },
-    { label: "Voice Control", href: "#voice-demo" },
-    { label: "AI Companion", href: "#ai-demo" },
+    { label: "Features", href: "#features" },
+    { label: "Chrome Extension", href: "#extension" },
+    { label: "Install Guide", href: "/install" },
+    { label: "Dashboard", href: "/dashboard" },
   ],
   Company: [
-    { label: "Mission", href: "#mission" },
-    { label: "Blog", href: "#" },
-    { label: "Careers", href: "#" },
-    { label: "Press", href: "#" },
     { label: "Contact", href: "#contact" },
+    { label: "FAQ", href: "#faq" },
   ],
   Resources: [
-    { label: "Documentation", href: "#" },
-    { label: "API Reference", href: "#" },
-    { label: "Accessibility Guide", href: "#" },
     { label: "WCAG Standards", href: "https://www.w3.org/WAI/standards-guidelines/wcag/" },
-    { label: "FAQ", href: "#faq" },
   ],
   Legal: [
     { label: "Privacy Policy", href: "#" },
     { label: "Terms of Service", href: "#" },
-    { label: "Cookie Policy", href: "#" },
-    { label: "Accessibility Statement", href: "#" },
   ],
 };
 
